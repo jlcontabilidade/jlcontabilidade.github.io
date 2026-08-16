@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — J L Contabilidade</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="color:var(--gold)">
+        <line x1="24" y1="4" x2="24" y2="44" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M24 10 C14 14, 14 22, 24 26 C34 30, 34 38, 24 42" stroke="currentColor" stroke-width="1.4" fill="none"/>
+        <path d="M24 10 C34 14, 34 22, 24 26 C14 30, 14 38, 24 42" stroke="currentColor" stroke-width="1.4" fill="none"/>
+        <path d="M24 6 L14 12 M24 6 L34 12" stroke="currentColor" stroke-width="1.4"/>
+      </svg>
+      J L Contabilidade
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="produtos.html">Produtos digitais</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html" class="active">Contato</a>
+    </div>
+    <a href="https://wa.me/5585992247566" target="_blank" rel="noopener" class="nav-cta">Fale conosco</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center;">Contato</div>
+    <h1>Vamos falar sobre o seu negócio</h1>
+    <p class="lead text-soft" style="margin:0 auto;">Escolha o canal que preferir — respondemos rápido.</p>
+  </div>
+</header>
+
+<section style="padding-top:10px;">
+  <div class="wrap grid grid-2" style="align-items:start;">
+
+    <div class="card">
+      <h3 style="margin-bottom:22px;">Envie uma mensagem</h3>
+      <div class="form-field">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Seu nome completo">
+      </div>
+      <div class="form-field">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="voce@email.com">
+      </div>
+      <div class="form-field">
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" placeholder="Ex: Abertura de empresa">
+      </div>
+      <div class="form-field">
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" rows="4" placeholder="Conte um pouco sobre o que você precisa"></textarea>
+      </div>
+      <button class="btn btn-gold" style="width:100%;" onclick="enviarMensagem()">Enviar mensagem</button>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-bottom:22px;">Outros canais</h3>
+      <div class="contact-info-row">
+        <span class="icon">✆</span>
+        <div>
+          <p style="margin:0; font-size:13px; color:var(--text-soft);">WhatsApp</p>
+          <p style="margin:0; font-size:15.5px;">(85) 99224-7566</p>
+        </div>
+      </div>
+      <div class="contact-info-row">
+        <span class="icon">✉</span>
+        <div>
+          <p style="margin:0; font-size:13px; color:var(--text-soft);">E-mail</p>
+          <p style="margin:0; font-size:15.5px;">contadorjohn1@outlook.com</p>
+        </div>
+      </div>
+      <div class="contact-info-row">
+        <span class="icon">◎</span>
+        <div>
+          <p style="margin:0; font-size:13px; color:var(--text-soft);">Instagram</p>
+          <p style="margin:0; font-size:15.5px;">@jl_contabilidade01</p>
+        </div>
+      </div>
+      <div class="contact-info-row">
+        <span class="icon">⚑</span>
+        <div>
+          <p style="margin:0; font-size:13px; color:var(--text-soft);">Localização</p>
+          <p style="margin:0; font-size:15.5px;">Fortaleza · CE</p>
+        </div>
+      </div>
+      <div style="margin-top:26px;">
+        <a href="https://wa.me/5585992247566" target="_blank" rel="noopener" class="btn btn-outline" style="width:100%; text-align:center;">Chamar no WhatsApp</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="brand">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="22" height="22" style="color:var(--gold)">
+            <line x1="24" y1="4" x2="24" y2="44" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M24 10 C14 14, 14 22, 24 26 C34 30, 34 38, 24 42" stroke="currentColor" stroke-width="1.4" fill="none"/>
+            <path d="M24 10 C34 14, 34 22, 24 26 C14 30, 14 38, 24 42" stroke="currentColor" stroke-width="1.4" fill="none"/>
+            <path d="M24 6 L14 12 M24 6 L34 12" stroke="currentColor" stroke-width="1.4"/>
+          </svg>
+          J L Contabilidade
+        </div>
+        <p class="text-soft" style="font-size:13.5px; max-width:280px;">Fortaleza · CE</p>
+        <p class="text-soft" style="font-size:13.5px; margin-top:6px;"><a href="https://instagram.com/jl_contabilidade01" target="_blank" rel="noopener" style="color:var(--gold-light);">@jl_contabilidade01</a></p>
+      </div>
+      <div class="foot-links">
+        <a href="servicos.html">Serviços</a>
+        <a href="produtos.html">Produtos digitais</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </div>
+    <hr class="hr-gold">
+    <div class="foot-bottom" style="margin-top:24px;">
+      <span>© 2026 J L Contabilidade. Todos os direitos reservados.</span>
+      <span>GESTÃO · PRECISÃO · RESULTADOS</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function enviarMensagem(){
+  const nome = document.getElementById('nome').value || '(não informado)';
+  const email = document.getElementById('email').value || '(não informado)';
+  const assunto = document.getElementById('assunto').value || 'Contato pelo site';
+  const msg = document.getElementById('msg').value || '';
+  const corpo = `Nome: ${nome}\nE-mail: ${email}\n\n${msg}`;
+  window.location.href = `mailto:contadorjohn1@outlook.com?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
+}
+</script>
+</body>
+</html>
