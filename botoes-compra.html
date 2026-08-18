@@ -1,0 +1,64 @@
+<!-- Botões de compra - Guia de Contabilidade + Simulador de Pró-labore -->
+<div class="jl-cta-buttons">
+  <a href="https://go.hotmart.com/O107225392J" target="_blank" rel="noopener noreferrer" class="jl-btn jl-btn-hotmart">
+    Comprar via Hotmart
+  </a>
+  <a href="https://pay.kiwify.com.br/DJQe9Eo" target="_blank" rel="noopener noreferrer" class="jl-btn jl-btn-kiwify">
+    Comprar via Kiwify
+  </a>
+</div>
+
+<style>
+  .jl-cta-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 32px 0;
+  }
+
+  .jl-btn {
+    display: inline-block;
+    padding: 14px 32px;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border: 1.5px solid #D4AF37;
+    transition: all 0.3s ease;
+  }
+
+  .jl-btn-hotmart {
+    background-color: #D4AF37;
+    color: #0A0A0A;
+  }
+
+  .jl-btn-hotmart:hover {
+    background-color: #0A0A0A;
+    color: #D4AF37;
+  }
+
+  .jl-btn-kiwify {
+    background-color: transparent;
+    color: #D4AF37;
+  }
+
+  .jl-btn-kiwify:hover {
+    background-color: #D4AF37;
+    color: #0A0A0A;
+  }
+
+  @media (max-width: 480px) {
+    .jl-cta-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    .jl-btn {
+      width: 100%;
+      max-width: 280px;
+    }
+  }
+</style>
